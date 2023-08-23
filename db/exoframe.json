@@ -1,0 +1,10 @@
+{
+  "name": "jakesiney-message-database",
+  "domain": false,
+  "hostname": "jakesiney-message-database",
+  "image": "postgres:12",
+  "env": {
+    "POSTGRES_PASSWORD": "@jakesiney-postgres-password"
+  },
+  "volumes": ["jakesiney_message_database_volume:/var/lib/postgresql/data"]
+}
